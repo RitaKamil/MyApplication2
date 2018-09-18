@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <network-security-config>
+        <network-security-config>
+            <debug-overrides>
+                <trust-anchors>
+                    <!-- Trust user added CAs while debuggable only -->
+                    <certificates src="user" />
+                </trust-anchors>
+            </debug-overrides>
+        </network-security-config>
+    </network-security-config>
+
+</PreferenceScreen>
